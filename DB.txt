@@ -1,0 +1,9 @@
+create database MissingChildDB;
+use MissingChildDB;
+create table missing(person_name varchar(60),
+child_name varchar(60),
+contact_no varchar(20),
+location varchar(120),
+image varchar(60),
+upload_date varchar(30),
+status varchar(100));
